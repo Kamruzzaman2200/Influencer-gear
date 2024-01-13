@@ -1,14 +1,26 @@
 header {
     background-color: #fff;
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-radius: 50%;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
 }
 
 nav>ul {
     display: flex;
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3a3a3a;
 }
 
 nav li {
@@ -18,11 +30,43 @@ nav li {
     font-size: 16px;
     font-weight: 600;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
+    color: #333232;
 }
 
 nav>ul img {
     margin-right: 30px;
     cursor: grab;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .camera {
+    width: 440px;
+    height: 414px;
+}
+
+.btn-primary {
+    background: #e02c6d;
+    color: #fff;
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: grab;
+}
+.banner-ge{
+    color: #3a3a3a;
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+
 }
